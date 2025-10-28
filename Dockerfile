@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.04
 MAINTAINER Luis Vargas "lanvargas@corhuila.edu.co"
 RUN apt-get update
 RUN apt-get install -y nginx
